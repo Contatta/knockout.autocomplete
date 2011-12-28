@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Knockout jQuery UI Autocomplete Bindings</title>
+
+		<!-- Dependencies -->
+		<!--[if lt IE 9]><script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+		<link rel="stylesheet" href="static/bootstrap.min.css">
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+		<script src="static/knockout-2.0.min.js"></script>
+
+		<style type="text/css">
+			body { background: #fff url('static/goovepaper.png') repeat; }
+			.navbar-inner { background-image: url('static/denim.png'); }
+			#body { padding: 50px 0 30px; }
+			.page-header { margin-top: 36px; }
+		</style>
+
+		<!-- Our library -->
+		<script src="../knockout.autocomplete.js"></script>
+
+		<script type="text/javascript">
+			$(function() {
+				function Example1() {
+					var self = this;
+				}
+				function ViewModel() {
+					var self = this;
+
+					self.example1 = new Example1();
+				}
+
+				ko.applyBindings(new ViewModel());
+			});
+		</script>
+	</head>
+	<body>
+		<div class="navbar navbar-fixed">
+			<div class="navbar-inner">
+				<div class="container">
+					<a class="brand" href="./index.html">Knockout.Autocomplete</a>
+					<ul class="nav secondary-nav">
+						<li><a href="#introduction">Introduction</a></li>
+						<li><a href="#usage">Usage</a></li>
+						<li><a href="#examples">Examples</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="container" id="body">
+			<section id="introduction">
+				<div class="page-header">
+					<h1>Introduction <small>Getting started with the plugin</small></h1>
+				</div>
+				<div class="row">
+					<div class="span12">
+						<p>TODO</p>
+					</div>
+				</div>
+			</section>
+			<section id="introduction">
+				<div class="page-header">
+					<h1>Usage <small>Configuration options and common use cases</small></h1>
+				</div>
+				<div class="row">
+					<div class="span12">
+						<p>TODO</p>
+					</div>
+				</div>
+			</section>
+			<section id="introduction">
+				<div class="page-header">
+					<h1>Examples <small>Working samples to get you started</small></h1>
+				</div>
+				<div class="row">
+					<div class="span12">
+						<p>TODO</p>
+					</div>
+				</div>
+			</section>
+		</div>
+	</body>
+</html>
